@@ -115,3 +115,35 @@ func compare(val1, val2 int, operand nip.Operand) bool {
 
 	return false
 }
+
+func EvaluateWithNote(i data.Item, rules []nip.Rule) (bool, string) {
+	for _, r := range rules {
+		if !evaluateGroups(i, r.Properties, checkProperty) {
+			// Properties not matching, skipping
+			continue
+		}
+
+		// We can not check stats, item is not identified, but properties matching
+		if !i.Identified {
+			return true, ""
+		}
+
+		if evaluateGroups(i, r.Stats, checkStat) {
+			return true, extractNoteFromComment(r.Comment)
+		}
+	}
+
+	return false, ""
+}
+
+func extractNoteFromComment(comment string) string {
+	// Assuming the note is after the last occurrence of "//"
+	index := strings.LastIndex(comment, "//")
+	if index == -1 {
+		return ""
+	}
+
+	// Trim any leading or trailing white spaces
+	return strings.TrimSpace(comment[index+2:])
+}
+
