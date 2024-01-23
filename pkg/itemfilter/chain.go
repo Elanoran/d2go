@@ -1,6 +1,6 @@
 package itemfilter
 
-import "github.com/hectorgimenez/d2go/pkg/nip"
+import "github.com/Elanoran/d2go/pkg/nip"
 
 type evaluationChain struct {
 	links []link
