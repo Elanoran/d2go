@@ -3,9 +3,9 @@ package itemfilter
 import (
 	"testing"
 
-	"github.com/hectorgimenez/d2go/pkg/data"
-	"github.com/hectorgimenez/d2go/pkg/data/item"
-	"github.com/hectorgimenez/d2go/pkg/nip"
+	"github.com/Elanoran/d2go/pkg/data"
+	"github.com/Elanoran/d2go/pkg/data/item"
+	"github.com/Elanoran/d2go/pkg/nip"
 	"github.com/stretchr/testify/require"
 )
 
