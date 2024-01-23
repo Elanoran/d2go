@@ -1,7 +1,7 @@
 package utils
 
 import (
-	"github.com/hectorgimenez/d2go/pkg/data"
+	"github.com/Elanoran/d2go/pkg/data"
 	"math"
 )
 
