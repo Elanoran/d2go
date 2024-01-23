@@ -3,8 +3,8 @@ package main
 import (
 	"context"
 	itemwatcher "github.com/hectorgimenez/d2go/cmd/itemwatcher/internal"
-	"github.com/hectorgimenez/d2go/pkg/memory"
-	"github.com/hectorgimenez/d2go/pkg/nip"
+	"github.com/Elanoran/d2go/pkg/memory"
+	"github.com/Elanoran/d2go/pkg/nip"
 	"log"
 	"os"
 	"os/signal"
