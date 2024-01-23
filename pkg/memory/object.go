@@ -3,9 +3,9 @@ package memory
 import (
 	"sort"
 
-	"github.com/hectorgimenez/d2go/pkg/data"
-	"github.com/hectorgimenez/d2go/pkg/data/object"
-	"github.com/hectorgimenez/d2go/pkg/utils"
+	"github.com/Elanoran/d2go/pkg/data"
+	"github.com/Elanoran/d2go/pkg/data/object"
+	"github.com/Elanoran/d2go/pkg/utils"
 )
 
 func (gd *GameReader) Objects(playerPosition data.Position, hover data.HoverData) []data.Object {
