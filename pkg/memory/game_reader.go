@@ -1,8 +1,8 @@
 package memory
 
 import (
-	"github.com/hectorgimenez/d2go/pkg/data"
-	"github.com/hectorgimenez/d2go/pkg/data/stat"
+	"github.com/Elanoran/d2go/pkg/data"
+	"github.com/Elanoran/d2go/pkg/data/stat"
 )
 
 type GameReader struct {
