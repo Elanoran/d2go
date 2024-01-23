@@ -2,7 +2,7 @@ package main
 
 import (
 	"context"
-	itemwatcher "github.com/hectorgimenez/d2go/cmd/itemwatcher/internal"
+	itemwatcher "github.com/Elanoran/d2go/cmd/itemwatcher/internal"
 	"github.com/Elanoran/d2go/pkg/memory"
 	"github.com/Elanoran/d2go/pkg/nip"
 	"log"
