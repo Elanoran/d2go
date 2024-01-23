@@ -3,10 +3,10 @@ package memory
 import (
 	"sort"
 
-	"github.com/hectorgimenez/d2go/pkg/data"
-	"github.com/hectorgimenez/d2go/pkg/data/item"
-	"github.com/hectorgimenez/d2go/pkg/data/stat"
-	"github.com/hectorgimenez/d2go/pkg/utils"
+	"github.com/Elanoran/d2go/pkg/data"
+	"github.com/Elanoran/d2go/pkg/data/item"
+	"github.com/Elanoran/d2go/pkg/data/stat"
+	"github.com/Elanoran/d2go/pkg/utils"
 )
 
 func (gd *GameReader) Items(pu data.PlayerUnit, hover data.HoverData) data.Items {
